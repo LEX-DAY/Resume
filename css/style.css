@@ -335,6 +335,7 @@
 
 .subtitle-text {
     margin-left: 102px;
+    font-size: calc(6px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
 }
 
 .main-right {
