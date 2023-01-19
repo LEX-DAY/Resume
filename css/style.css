@@ -15,6 +15,12 @@ header {
    
 }
 
+section {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
 
 .header-left {
    background-color: #282828;
@@ -379,6 +385,7 @@ header {
    width: 500%;
    height: 100%;
    display: flex;
+   justify-content: center;
  }
  
  .wrapper input{
@@ -492,7 +499,7 @@ header {
  }
  #radio5:checked ~ .automobile-sliv .auto-btn5{
    background: #282828;
- }
+ } */
 
 
 
@@ -519,6 +526,14 @@ header {
 
 
  @media (min-width: 360px) and (max-width: 860px) {
+   section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 ;
+   }
+
+
+
    .footer__text {
       
       font-size: 20px;
