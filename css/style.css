@@ -38,7 +38,7 @@ content {
 .header-titles {
    height: 25%;
    display: flex;
-   justify-content: flex-start;
+   justify-content: flex-end;
    align-items: flex-start;
    white-space: nowrap;
    text-align: justify;
@@ -62,7 +62,7 @@ content {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
-   font-size: 20px;
+   font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
 
    color: #FFFFFF;
 
@@ -204,7 +204,12 @@ content {
       height: 100%;
       margin-top: 85px;
       margin-bottom: 40px;
+      margin-left: 20px;
 
+   }
+
+   .header-titles span {
+      font-size: 20px;
    }
 
 
@@ -229,7 +234,7 @@ content {
    }
 
    .header-img {
-      min-width: 150px;
+      min-width: 170px;
       left: -10vw;
    }
 
