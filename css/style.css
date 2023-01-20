@@ -154,7 +154,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 25px;
+   line-height: 35px;
 
    text-align: justify;
    text-align-last: center;
