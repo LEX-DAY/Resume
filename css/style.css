@@ -724,7 +724,8 @@ footer {
 @media (min-width: 320px) and (max-width: 860px) {
    .main-slider {
 
-      height: 620px;
+      min-height: 370px;
+      height: auto;
    }
 
    .slider {
