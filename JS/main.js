@@ -5,7 +5,7 @@
   if(counter > 5){
   counter = 1;
   }
-  }, 5000);
+  }, 1500);
 
 
   let pageTitle = document.title;

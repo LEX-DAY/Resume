@@ -29,12 +29,23 @@ a:active {
 
 /* Common styles. */
 
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
     display: block;
 
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-size: inherit;
     font-weight: inherit;
     line-height: inherit;
@@ -51,14 +62,18 @@ ul {
     list-style: none;
 }
 
-img, svg {
+img,
+svg {
     vertical-align: top;
     max-width: 100%;
     height: auto;
 }
 
 
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -70,7 +85,8 @@ input::-ms-clear {
 
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
     display: inline-block;
     box-shadow: none;
     background-color: transparent;
@@ -87,6 +103,7 @@ button::-moz-focus-inner {
 label {
     cursor: pointer;
 }
+
 legend {
     display: block;
 }
