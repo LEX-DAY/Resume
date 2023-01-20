@@ -1,14 +1,16 @@
-  let counter = 1;
+  let counter = 0;
+
   setInterval(function(){
-  document.getElementById('radio' + counter).checked = true;
-  counter++;
-  if(counter > 5){
-  counter = 1;
-  }
-  }, 1500);
+         
+         document.getElementById( 'radio' + counter.toString() ).checked = true;
+         counter++;
+         if (counter > 4){
+         counter = 0;
+    }
+  }, 2000);
 
 
-  let pageTitle = document.title;
+ const pageTitle = document.title;
 
   window.addEventListener("blur", () => {
       document.title = "Come back here...";

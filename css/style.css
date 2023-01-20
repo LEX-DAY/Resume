@@ -154,9 +154,10 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
+   line-height: 25px;
+
    text-align: justify;
    text-align-last: center;
-   word-wrap: break-word;
    color: #878787;
 
 
@@ -241,7 +242,7 @@ content {
 
    .img-subtitle {
 
-      line-height: auto;
+      line-height: 20px;
       max-width: 100vw;
 
 
@@ -566,7 +567,7 @@ content {
 
 
 
-.main_wrapper {
+.main-slider {
    border-radius: 5px;
    overflow: hidden;
 
@@ -575,18 +576,18 @@ content {
    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.3);
 }
 
-.wrapper {
+.slider {
    width: 500%;
    height: 100%;
    display: flex;
    justify-content: center;
 }
 
-.wrapper input {
+.slider input {
    display: none;
 }
 
-.sekus {
+.slider-element {
    position: relative;
    justify-content: center;
    width: 20%;
@@ -596,7 +597,7 @@ content {
    border-radius: 10px;
 }
 
-.sekus img {
+.slider-element img {
    position: absolute;
    top: 0;
    left: 0;
@@ -606,7 +607,7 @@ content {
 
 }
 
-.wrapper_navigats {
+.slider-navigats {
    display: flex;
    justify-content: center;
 
@@ -634,24 +635,24 @@ content {
    opacity: .6;
 }
 
-#radio1:checked~.first {
+#radio0:checked~.first {
    margin-left: 0;
 }
 
-#radio2:checked~.first {
-   margin-left: -20%;
-}
-
-#radio3:checked~.first {
+#radio1:checked~.first {
    margin-left: -40%;
 }
 
-#radio4:checked~.first {
-   margin-left: -60%;
+#radio2:checked~.first {
+   margin-left: -80%;
 }
 
-#radio5:checked~.first {
-   margin-left: -80%;
+#radio3:checked~.first {
+   margin-left: -120%;
+}
+
+#radio4:checked~.first {
+   margin-left: -160%;
 }
 
 
@@ -676,12 +677,16 @@ content {
    margin-right: 40px;
 }
 
+#radio0:checked~.automobile-sliv .auto-btn0 {
+   background: #282828;
+}
+
 #radio1:checked~.automobile-sliv .auto-btn1 {
+
    background: #282828;
 }
 
 #radio2:checked~.automobile-sliv .auto-btn2 {
-
    background: #282828;
 }
 
@@ -693,10 +698,6 @@ content {
    background: #282828;
 }
 
-#radio5:checked~.automobile-sliv .auto-btn5 {
-   background: #282828;
-}
-
 footer {
    margin-top: 50px;
    padding: 60px 0;
@@ -704,7 +705,7 @@ footer {
    text-align: center;
 }
 
-.footer__text {
+.footer-text {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 800;
@@ -714,24 +715,24 @@ footer {
 
 }
 
-.footer__text span {
+.footer-text span {
    font-size: 25px;
 
 }
 
 
 @media (min-width: 320px) and (max-width: 860px) {
-   .main_wrapper {
+   .main-slider {
 
       height: 620px;
    }
 
-   .wrapper {
+   .slider {
       width: 500%;
       height: 100%;
    }
 
-   .wrapper input {
+   .slider input {
       display: none;
    }
 
@@ -748,12 +749,12 @@ footer {
       justify-content: center;
    }
 
-   .footer__text {
+   .footer-text {
 
       font-size: 20px;
    }
 
-   .footer__text span {
+   .footer-ext span {
       font-size: 15px;
 
    }
