@@ -7,7 +7,7 @@ setInterval(function(){
          if (counter > 4){
          counter = 0;
     }
-}, 2000);
+}, 4000);
 
 
 const pageTitle = document.title;
