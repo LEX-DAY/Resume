@@ -167,6 +167,8 @@ content {
 
 }
 
+
+
 @media (min-width: 1040px) and (max-width: 1200px) {
    .titles-contacts {
       margin: 334px 137px 70px 63px;
@@ -222,10 +224,6 @@ content {
 
    }
 
-
-
-
-
    .titles-contacts>ul>li>a {
       margin-bottom: 10px;
 
@@ -266,6 +264,7 @@ content {
    display: flex;
    flex-wrap: nowrap;
    margin: 70px 0 50px;
+   
 
 }
 
@@ -284,11 +283,15 @@ content {
 }
 
 .titles {
-   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 
 }
 
 .section-title {
+  
+   text-align: center;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 700;
@@ -299,17 +302,22 @@ content {
 
    color: #000000;
 
-   margin-bottom: 25px;
+   margin-bottom: 30px;
+   
 }
 
 .section-subtitles {
    display: flex;
-   justify-content: space-between;
+   justify-content:left;
    margin-bottom: 35px;
+   vertical-align: top;
+   flex-direction: row;
 }
 
 .subtitle-year {
+   
    width: 100%;
+   max-width: 120px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
@@ -320,16 +328,34 @@ content {
    margin-bottom: 15px;
 }
 
-.subtitle span {
-   margin-left: 20px;
+.subtitle-name {
+   text-align: left;
+   margin: 0 15px;
+   vertical-align: top;
+   max-width: 420px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 600;
-   font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 20px;
+   font-size: 20px;
+   line-height: 30px;
 
    color: #000000;
 
+}
+
+
+.subtitle-name > h2 {
+   margin-bottom: 10px;
+   text-align: left;
+}
+.subtitle-text {
+   text-align: left;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   
 }
 
 .subtitle-language {
@@ -337,7 +363,7 @@ content {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 600;
-   font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
+   font-size: 20px;
    line-height: 14px;
 
    color: #000000;
@@ -354,10 +380,7 @@ content {
 
 }
 
-.subtitle-text {
-   margin-left: 102px;
-   font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-}
+
 
 .main-right {
    max-width: 560px;
@@ -387,42 +410,24 @@ content {
 
 }
 
-.progress-bar {
-   background-color: #282828;
-   height: 25px;
-   width: 200px;
-   -moz-border-radius: 5px;
-   -webkit-border-radius: 5px;
-   border-radius: 5px;
-   moz-box-shadow: 2px 0px 0px rgba(255, 255, 255, 0.5) insert;
-   webkit-box-shadow: 2px 0px 0px rgba(255, 255, 255, 0.5)insert;
-   box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.5)insert;
 
-}
-
-.progress-bar span {
-   background-color: #878787;
-   display: inline-block;
-   height: 25px;
-   width: 50vw;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;
-   border-radius: 3px;
-   moz-box-shadow: 2px 0px 0px rgba(255, 255, 255, 0.5);
-   webkit-box-shadow: 2px 0px 0px rgba(255, 255, 255, 0.5);
-   box-shadow: 1px 0px 0px rgba(255, 255, 255, 0.5);
-   -webkit-transition: width .4s ease-in-out;
-   -moz-transition: width .4s ease-in-out;
-   -o-transition: width .4s ease-in-out;
-   -ms-transition: width .4s ease-in-out;
-   transition: width .4s ease-in-out;
-}
 
 
 .section-skills {
    margin-bottom: 50px;
 }
 
+@media (min-width: 1201px) {
+   .subtitle-year {
+      
+      font-size: 24px;
+      
+   }
+
+   .subtitle-name {
+      font-size: 28px;
+   }
+}
 
 @media (min-width: 320px) and (max-width: 860px) {
 
@@ -471,7 +476,7 @@ content {
       margin-bottom: 20px;
    }
 
-   .subtitle {
+   .subtitle-year {
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 400;
@@ -483,7 +488,7 @@ content {
       
    }
 
-   .subtitle span {
+   .subtitle-name {
       text-align: center;
       margin-left: 20px;
       font-family: 'Open Sans';
@@ -519,8 +524,7 @@ content {
    }
 
    .subtitle-text {
-      margin-left: 102px;
-      font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
+      font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    }
 
    .main-right {
