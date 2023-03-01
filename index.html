@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/icons/icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <title>Resume</title>
 </head>
 
@@ -55,10 +57,9 @@
                 <img src="./img/me.jpg" alt="" class="header-img">
                 <div class="img-titles">
                     <h1 class="img-title">ABOUT ME</h1>
-                    <p class="img-subtitle">My name is Alexey, 24 years old. I'm a beginner Frontend developer.
-                        I study HTML, CSS and JS intensively. I devote a lot of time to study and constantly improve my
-                        skills.
-                        It's important for me to do everything possible to complete tasks efficiently.
+                    <p class="img-subtitle">Hello, I’m Alexey, a 24-year-old frontend developer.
+                         I’m passionate about learning new web technologies and creating responsive websites.
+                         I always strive to complete tasks efficiently and deliver high-quality results.
                     </p>
                 </div>
             </div>
@@ -70,7 +71,7 @@
 
     <main>
         <div class="container">
-            <!-- 
+     <!--       
             <div class="main-content">
                 <div class="main-left">
                     <div class="main-section">
@@ -160,11 +161,11 @@
                     </div>
                 </div>
             </div>
-            -->
+     -->        
 
 
         </div>
-
+<!--
         <div class="slideshow-container">
 
             <div class="mySlides fade">
@@ -193,6 +194,18 @@
               <span class="dot" onclick="currentSlide(2)"></span> 
               <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
+        -->
+
+
+
+        <!-- Slider main container -->
+        <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
+            <swiper-slide><img src="./img/slider/landing.jpg" alt=""></swiper-slide>
+            <swiper-slide><img src="./img/slider/mems.jpg" alt=""></swiper-slide>
+            <swiper-slide><img src="./img/slider/portfolio.jpg" alt=""></swiper-slide>
+            <swiper-slide><img src="./img/slider/restouran.jpg" alt=""></swiper-slide>
+            <swiper-slide><img src="./img/slider/stopwatch.jpg" alt=""></swiper-slide>
+          </swiper-container>
 
     </main>
 
@@ -205,6 +218,7 @@
         </div>
     </footer>
     <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
 </body>
 
