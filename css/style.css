@@ -285,7 +285,7 @@ content {
 .titles {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: left;
 
 }
 
@@ -317,7 +317,7 @@ content {
 .subtitle-year {
    
    width: 100%;
-   max-width: 120px;
+   max-width: 125px;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
@@ -477,10 +477,11 @@ content {
    }
 
    .subtitle-year {
+      margin-right: 10px;
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
+      font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
       line-height: 20px;
 
       color: #878787;
@@ -490,7 +491,8 @@ content {
 
    .subtitle-name {
       text-align: center;
-      margin-left: 20px;
+      margin-left: 0px;
+      margin-right: 0px;
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 600;
@@ -499,6 +501,12 @@ content {
 
       color: #000000;
 
+   }
+
+   .subtitle-text {
+      max-width: 160px;
+      line-height: 20px;
+      font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    }
 
    .subtitle-language {
@@ -616,7 +624,7 @@ footer {
 
 
 :root {
-   --swiper-theme-color: #282828;
+   --swiper-theme-color: #00000071;
  }
 
 
