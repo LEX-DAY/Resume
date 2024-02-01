@@ -278,7 +278,7 @@ content {
 
 
 .section-titles:nth-child(1) {
-   margin-bottom: 110px;
+   margin-bottom: 55px;
    max-width: 540px;
 }
 
@@ -363,19 +363,18 @@ content {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 600;
-   font-size: 20px;
-   line-height: 14px;
-
-   color: #000000;
+   font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));;
+   /* line-height: 14px; */
    margin: 0;
+   color: #000000;
+   
 
 }
 
 .subtitle-language span {
    font-weight: 400;
-   font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
+   font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    line-height: 16px;
-
    color: #878787;
 
 }
@@ -391,7 +390,6 @@ content {
 .skill-subtitles {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 15px;
    align-items: center;
 
 
@@ -401,9 +399,7 @@ content {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
-   font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 16px;
-
+   font-size: calc(12px + (8 + 8 * 0.7) * ((98vw - 320px) / 1280));
 
    color: #000000;
    margin-right: 20px;
@@ -569,28 +565,13 @@ content {
       margin: 20px auto;
 
    }
-
-   .progress-bar {
-      background-color: #282828;
-      height: 15px;
-      width: 50vw;
-
-
-   }
-
-   .progress-bar span {
-
-      height: 15px;
-      width: 30vw;
-
-   }
 }
 
 
 
-footer {
+.footer {
    margin-top: 50px;
-   padding: 60px 0;
+   padding: 120px 0;
    background-color: #b8b8b8a4;
    text-align: center;
 }
@@ -600,7 +581,7 @@ footer {
    font-style: normal;
    font-weight: 800;
    font-size: 30px;
-
+   padding: 60px 0;
    color: #00000071;
 
 }
@@ -630,7 +611,7 @@ footer {
 
 swiper-container {
    margin: auto;
-   width: 95vw;
+   width: 60%;
    height: auto;
    box-shadow: 0px 0px 100px -10px rgba(80, 75, 34, 0.3);
    border-radius: 10px;
@@ -650,8 +631,9 @@ swiper-container {
    
    margin: 3px;
    display: block;
-   width: 100%;
+   width: 80%;
    height: 100%;
+   border-radius: 8px;
    
    object-fit:contain;
  }
