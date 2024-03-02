@@ -1,11 +1,12 @@
-@import url('./fonts.css');
-@import url('./reset.css');
+/* @import url('../fonts.css');*/
+@import url('./reset.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,600&display=swap'); 
 
 header {
    width: auto;
    margin-right: 0;
    padding-right: 0;
-}
+} 
 
 main {
    display: grid;
@@ -165,11 +166,11 @@ content {
    color: #878787;
 
 
-}
+} 
 
 
 
-@media (min-width: 1040px) and (max-width: 1200px) {
+/* @media (min-width: 1040px) and (max-width: 1200px) {
    .titles-contacts {
       margin: 334px 137px 70px 63px;
 
@@ -184,10 +185,10 @@ content {
       margin-bottom: 15px;
 
    }
-}
+} */
 
 
-@media (min-width: 320px) and (max-width: 860px) {
+/* @media (min-width: 320px) and (max-width: 860px) {
    .header-left {
       padding-bottom: 0px;
       max-width: 50vw;
@@ -255,7 +256,7 @@ content {
 
    }
 
-}
+} */
 
 
 
@@ -273,7 +274,7 @@ content {
    border-right: 2px solid #D9D9D9;
    height: auto;
    margin-left: 10px;
-}
+} 
 
 
 
@@ -298,14 +299,14 @@ content {
    font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    line-height: 14px;
 
-   letter-spacing: 0.4em;
+   /* letter-spacing: 0.4em; */
 
    color: #000000;
 
    margin-bottom: 30px;
    
-}
-
+} 
+ 
 .section-subtitles {
    display: flex;
    justify-content:left;
@@ -341,7 +342,7 @@ content {
 
    color: #000000;
 
-}
+} 
 
 
 .subtitle-name > h2 {
@@ -356,7 +357,7 @@ content {
    font-size: 20px;
    line-height: 30px;
    
-}
+} 
 
 .subtitle-language {
    margin-left: 20px;
@@ -364,12 +365,10 @@ content {
    font-style: normal;
    font-weight: 600;
    font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));;
-   /* line-height: 14px; */
    margin: 0;
    color: #000000;
-   
-
 }
+
 
 .subtitle-language span {
    font-weight: 400;
@@ -411,9 +410,9 @@ content {
 
 .section-skills {
    margin-bottom: 50px;
-}
+} 
 
-@media (min-width: 1201px) {
+ @media (min-width: 1201px) {
    .subtitle-year {
       
       font-size: 24px;
@@ -449,7 +448,7 @@ content {
       margin: 20px 20px;
    }
 
-
+ 
 
    .section-titles:nth-child(1) {
       margin-bottom: 60px;
@@ -568,7 +567,6 @@ content {
 }
 
 
-
 .footer {
    margin-top: 50px;
    padding: 120px 0;
@@ -636,10 +634,7 @@ swiper-container {
    border-radius: 8px;
    
    object-fit:contain;
- }
-
-
-
+ } 
 
 
 
