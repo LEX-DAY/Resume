@@ -61,14 +61,16 @@ content {
    font-weight: 800;
    font-size: calc(25px + (20 + 20 * 0.7) * ((100vw - 320px) / 1280));
    color:rgb(255, 255, 255);
+   margin-bottom: 20px;
 }
 
-.header-title span {
+.header-title-prof {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
    font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    color: #FFFFFF;
+   padding-top: 10vh;
 
 }
 
@@ -137,7 +139,7 @@ content {
 }
 
 .img-titles {
-   margin: 4vh 2vw;
+   margin: 4vh 0vw 4vh 2vh;
    display: block;
 
    max-width: 40vw;
@@ -265,8 +267,8 @@ content {
 .main-content {
    display: flex;
    flex-wrap: nowrap;
-   margin: 70px 0 50px;
-   
+   margin: 7vh 0 50px;
+   padding-top: 40px
 
 }
 
@@ -281,9 +283,9 @@ content {
 
 .section-titles:nth-child(1) {
    margin-bottom: 55px;
-   max-width: 54vw;
-   max-width: 540px;
-   min-width: 30vw;
+   /* max-width: 50vw; */
+   max-width: 560px;
+   min-width: 25vw;
    height: 20vh;
 
 }

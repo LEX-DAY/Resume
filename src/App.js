@@ -16,8 +16,12 @@ function App() {
             <div className="header-left">
               <div className="header-titles">
                 <h1 className="header-title">
-                  ALIAKSEI DZIATSEL<br /><span>Engineer IT</span>
+                  ALIAKSEI DZIATSEL
                 </h1>
+                <h1 className="header-title-prof">
+                  Software engineer
+                </h1>
+                
               </div>
 
               <div className="titles-contacts">
@@ -49,9 +53,7 @@ function App() {
               <div className="img-titles">
                 <h1 className="img-title">ABOUT ME</h1>
                 <p className="img-subtitle">
-                  I strive for excellence in web development, and have a passion for creating interactive and intuitive user interfaces. 
-                  I have experience in developing with modern technologies, such as HTML5, CSS3 and JavaScript. 
-                  I am ready for continuous learning and accepting new challenges in the fast-changing web development environment.
+                A software engineer with many years of experience. I specialize in software development, process automation, and working with Python, SQL (PostgreSQL), Telegram API, and Web development. I have experience writing PowerShell scripts for remote administration. I can optimize queries in databases, develop bots and automated systems. I am distinguished by my analytical thinking, attention to detail, and ability to solve non-standard tasks.
                 </p>
               </div>
             </div>
@@ -80,7 +82,7 @@ function App() {
                     <div className="titles">
                       <h1 className="section-title">EXPERIENCE</h1>
                       <div className="section-subtitles">
-                        <h2 className="subtitle-year">2024</h2>
+                        <h2 className="subtitle-year">2024-Now</h2>
                         <div className="subtitle-name">
                           <h2>DEFO-Furniture LLC</h2>
                           <p className="subtitle-text">Engineer</p>
