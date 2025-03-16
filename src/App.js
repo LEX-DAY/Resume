@@ -82,7 +82,7 @@ function App() {
                       <div className="section-subtitles">
                         <h2 className="subtitle-year">2024</h2>
                         <div className="subtitle-name">
-                          <h2>ООО «ДЭФО-Мебель»</h2>
+                          <h2>DEFO-Furniture LLC</h2>
                           <p className="subtitle-text">Engineer</p>
                         </div>
                       </div>
