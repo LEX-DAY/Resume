@@ -213,7 +213,7 @@ content {
    font-style: normal;
    font-weight: 700;
    font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 14px;
+   line-height: normal;
 
    /* letter-spacing: 0.4em; */
 
@@ -244,7 +244,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 35px;
+   line-height: normal;
    color: #878787;
    margin-bottom: 15px;
 }
@@ -258,7 +258,7 @@ content {
    font-style: normal;
    font-weight: 600;
    font-size: 20px;
-   line-height: 1.1;
+   line-height: normal;
 
    color: #000000;
 
@@ -276,7 +276,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
-   line-height: 1.1;
+   line-height: normal;
    
 } 
 
@@ -412,7 +412,7 @@ content {
       text-align: center;
    }
    .subtitle-name > h2 {
-      line-height: 1.1;
+      line-height: normal;
    }
     
    .img-subtitle {
