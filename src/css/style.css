@@ -385,7 +385,7 @@ content {
 .subtitle-language span {
    font-weight: 400;
    font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 16px;
+   line-height: normal;
    color: #878787;
 
 }
@@ -411,7 +411,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(12px + (8 + 8 * 0.7) * ((98vw - 320px) / 1280));
-   line-height: 1.1;
+   line-height: normal;
    color:rgba(0, 0, 0, 0.6);
    margin-right: 20px;
 
