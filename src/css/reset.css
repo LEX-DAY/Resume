@@ -48,7 +48,7 @@ h6,
 p {
     font-size: inherit;
     font-weight: inherit;
-    line-height: inherit;
+    line-height: normal;
 
 }
 
