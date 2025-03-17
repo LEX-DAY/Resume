@@ -497,6 +497,10 @@ content {
    .subtitle-name, .subtitle-text {
       text-align: center;
    }
+    
+   .img-subtitle {
+      line-height: auto;
+   } 
 }
 
 @media (max-width: 768px) { 
@@ -541,6 +545,10 @@ content {
    .footer-text {
       font-size: 18px;
    }
+
+   .img-subtitle {
+      line-height: auto;
+   } 
 }
 
 
