@@ -114,7 +114,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(8px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 1.1;
+   line-height: normal;
 
    color: #FFFFFF;
    margin-left: 10px;
@@ -162,7 +162,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 1.1;
+   line-height: normal;
 
    text-align: justify;
    text-align-last: center;
@@ -170,97 +170,6 @@ content {
 
 
 } 
-
-
-
-/* @media (min-width: 1040px) and (max-width: 1200px) {
-   .titles-contacts {
-      margin: 334px 137px 70px 63px;
-
-   }
-
-   .titles-contacts>ul>li>a>img {
-      width: 20px;
-      height: 20px;
-   }
-
-   .titles-contacts>ul>li>a {
-      margin-bottom: 15px;
-
-   }
-} */
-
-
-/* @media (min-width: 320px) and (max-width: 860px) {
-   .header-left {
-      padding-bottom: 0px;
-      max-width: 50vw;
-   }
-
-   .header-right {
-      padding-bottom: 0px;
-      max-width: 50vw;
-   }
-
-
-   .container {
-      max-width: 80vw;
-      margin: 0;
-      padding: 0;
-   }
-
-
-   .header-titles {
-      height: 100%;
-      margin-top: 85px;
-      margin-bottom: 40px;
-      margin-left: 20px;
-
-   }
-
-   .header-titles span {
-      font-size: 20px;
-   }
-
-
-   .titles-contacts {
-      margin: 30vh 10vw 42px;
-
-   }
-
-   .titles-contacts>ul>li>a {
-      margin-bottom: 10px;
-
-   }
-
-
-   .titles-contacts>ul>li>a>img {
-      width: 15px;
-      height: 15px;
-   }
-
-   .header-img {
-      min-width: 170px;
-      left: -10vw;
-   }
-
-
-
-   .img-titles {
-      margin-left: 20px;
-
-   }
-
-   .img-subtitle {
-
-      line-height: 20px;
-      max-width: 100vw;
-
-
-   }
-
-} */
-
 
 
 
@@ -502,9 +411,12 @@ content {
    .subtitle-name, .subtitle-text {
       text-align: center;
    }
+   .subtitle-name > h2 {
+      line-height: 1.1;
+   }
     
    .img-subtitle {
-      line-height: 1.1;
+      line-height: normal;
    } 
 }
 
@@ -552,7 +464,7 @@ content {
    }
 
    .img-subtitle {
-      line-height: 1.1;
+      line-height: normal;
    } 
 }
 
