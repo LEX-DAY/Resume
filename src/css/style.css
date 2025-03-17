@@ -114,7 +114,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(8px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 11px;
+   line-height: 1.1;
 
    color: #FFFFFF;
    margin-left: 10px;
@@ -152,7 +152,7 @@ content {
    font-style: normal;
    font-weight: 600;
    font-size: calc(16px + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 150%;
+   line-height: 1.1;
    margin-bottom: 10px;
    color: #000000;
 }
@@ -162,7 +162,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 150%;
+   line-height: 1.1;
 
    text-align: justify;
    text-align-last: center;
@@ -349,7 +349,7 @@ content {
    font-style: normal;
    font-weight: 600;
    font-size: 20px;
-   line-height: 150%;
+   line-height: 1.1;
 
    color: #000000;
 
@@ -366,7 +366,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
-   line-height: 150%;
+   line-height: 1.1;
    
 } 
 
@@ -410,7 +410,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(12px + (8 + 8 * 0.7) * ((98vw - 320px) / 1280));
-   line-height: normal;
+   line-height: 1.1;
    color:rgba(0, 0, 0, 0.6);
    margin-right: 20px;
 
@@ -499,7 +499,7 @@ content {
    }
     
    .img-subtitle {
-      line-height: normal;
+      line-height: 1.1;
    } 
 }
 
@@ -547,7 +547,7 @@ content {
    }
 
    .img-subtitle {
-      line-height: normal;
+      line-height: 1.1;
    } 
 }
 
