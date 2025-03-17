@@ -410,7 +410,7 @@ content {
    font-style: normal;
    font-weight: 400;
    font-size: calc(12px + (8 + 8 * 0.7) * ((98vw - 320px) / 1280));
-
+   line-height: auto;
    color:rgba(0, 0, 0, 0.6);
    margin-right: 20px;
 
