@@ -152,7 +152,7 @@ content {
    font-style: normal;
    font-weight: 600;
    font-size: calc(16px + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
-   line-height: 1.1;
+   line-height: normal;
    margin-bottom: 10px;
    color: #000000;
 }
@@ -359,6 +359,7 @@ content {
 .subtitle-name > h2 {
    margin-bottom: 10px;
    text-align: left;
+   line-height: normal;
 }
 .subtitle-text {
    text-align: left;
@@ -492,6 +493,10 @@ content {
    .img-titles {
       max-width: 100%;
       margin: 0;
+   }
+    .section-titles:nth-child(1) {
+      padding:0px;
+
    }
 
    .subtitle-name, .subtitle-text {
