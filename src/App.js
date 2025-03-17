@@ -92,7 +92,7 @@ function App() {
                         <h2 className="subtitle-year">2024-2024</h2>
                         <div className="subtitle-name">
                           <h2>INTELLIGENT TECHNOLOGIES</h2>
-                          <p className="subtitle-text">Frontend Developer</p>
+                          <p className="subtitle-text">Software Engineer</p>
                         </div>
                       </div>
                       <div className="section-subtitles">
