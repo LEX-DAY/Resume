@@ -453,7 +453,7 @@ content {
 
  @media (max-width: 1024px) { 
    .container {
-      max-width: 90vw;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
