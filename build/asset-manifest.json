@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.bbb5c765.css",
+    "main.js": "/Resume/static/js/main.b155423d.js",
+    "static/js/592.451cf9ed.chunk.js": "/Resume/static/js/592.451cf9ed.chunk.js",
+    "static/media/mems.jpg": "/Resume/static/media/mems.f63a43200770f621bbda.jpg",
+    "static/media/restouran.jpg": "/Resume/static/media/restouran.c644cb9576377d102f57.jpg",
+    "static/media/portfolio.jpg": "/Resume/static/media/portfolio.0d351b3a70a548c85a08.jpg",
+    "static/media/landing.jpg": "/Resume/static/media/landing.6b5ef689e11915f0262a.jpg",
+    "static/media/me.jpg": "/Resume/static/media/me.879bf661962694fa74b7.jpg",
+    "static/media/Vector.svg": "/Resume/static/media/Vector.7afc8beca9fdfed686609ae78e2c382a.svg",
+    "static/media/Vector-3.svg": "/Resume/static/media/Vector-3.b68f8b96b732066689bd249033734e07.svg",
+    "static/media/Vector-1.svg": "/Resume/static/media/Vector-1.d1b82edfe5f7f439750024eb5582015b.svg",
+    "index.html": "/Resume/index.html",
+    "main.bbb5c765.css.map": "/Resume/static/css/main.bbb5c765.css.map",
+    "main.b155423d.js.map": "/Resume/static/js/main.b155423d.js.map",
+    "592.451cf9ed.chunk.js.map": "/Resume/static/js/592.451cf9ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbb5c765.css",
+    "static/js/main.b155423d.js"
+  ]
+}
