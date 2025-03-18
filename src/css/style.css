@@ -393,7 +393,6 @@ main {
 
    .titles {
       text-align: center;
-
    }
 
    .section-title {
@@ -414,7 +413,6 @@ main {
       font-weight: 400;
       font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
       line-height: normal;
-
       color: #878787;
       margin-bottom: 15px;
       
