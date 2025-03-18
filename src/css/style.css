@@ -95,7 +95,7 @@ main {
 
 }
 
-.titles-contacts>ul>li>a>img {
+.titles-contacts>ul>li>a>svg {
    width: 30px;
    height: 30px;
 }
@@ -343,7 +343,15 @@ main {
 
    .subtitle-name {
       font-size: 28px;
+      margin: 0px;   
+   } 
+   
+   
+   .subtitle-name > h2 {
+      margin-bottom: 10px;
+      text-align: left;
    }
+
 }
 
 @media (min-width: 320px) and (max-width: 860px) {
@@ -355,6 +363,12 @@ main {
       
       margin: 0px auto;
       padding: 20px; /* Добавлено для улучшения отступов */
+   }
+
+
+   .titles-contacts>ul>li>a>svg {
+      width: 20px;
+      height: 20px;
    }
 
 
@@ -408,7 +422,7 @@ main {
 
    .subtitle-name {
       text-align: center;
-      margin: 0 10px; /* Изменено для улучшения отступов */
+      margin: 0px; 
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 600;
@@ -458,11 +472,12 @@ main {
    }
 
    .skill-subtitles {
-      display: flex;
-      justify-content: space-between;
+      /* display: flex; */
+      justify-content: center;
       margin-bottom: 15px;
       align-items: center;
-
+      text-align: justify;
+      text-align-last: center;
 
    }
 
@@ -473,7 +488,8 @@ main {
       font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
       line-height: normal;
       color: #000000;
-      margin-right: 20px;
+      margin-right: 0px;
+      
 
    }
    .subtitle-skill span {
@@ -575,6 +591,7 @@ swiper-container {
 @media (max-width: 860px) {
    swiper-container {
       width: 90%;
+      margin-top: 200px;
    }
 
    swiper-slide img {
