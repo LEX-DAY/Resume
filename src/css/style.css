@@ -20,7 +20,6 @@ main {
    padding: 0 15px;
    display: flex;
    justify-content: center;
-
 }
 
 .content {
@@ -36,11 +35,13 @@ main {
    display: grid;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
+   /* max-width: 50vw; */
+   min-width: 50%;
 }
 
 .header-right {
    padding-bottom: 0px;
-   max-width: 50vw;
+   /* max-width: 50vw; */
 }
 
 .header-titles {
@@ -90,7 +91,7 @@ main {
 .titles-contacts>ul>li>a {
    display: flex;
    align-items: center;
-   margin-bottom: 20px;
+   margin-bottom: 4vh;
 
 
 }
@@ -112,8 +113,8 @@ main {
 .contact {
    font-family: 'Open Sans';
    font-style: normal;
-   font-weight: 400;
-   font-size: calc(8px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
+   font-weight: 600;
+   font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
    line-height: normal;
 
    color: #FFFFFF;
@@ -128,6 +129,7 @@ main {
 
    margin-top: auto;
    width: 100%;
+   max-width: 50vw;
    height: auto;
 
    border-radius: 0px 0px 10px 0px;
@@ -142,7 +144,7 @@ main {
    margin: 4vh 0vw 4vh 2vh;
    display: block;
 
-   max-width: 40vw;
+   max-width: 50vw;
 
 }
 
@@ -151,7 +153,7 @@ main {
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 600;
-   font-size: calc(16px + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
+   font-size: calc(16px + (12 + 12 * 0.7) * ((100vw - 320px) / 1280));
    line-height: normal;
    margin-bottom: 10px;
    color: #000000;
@@ -166,8 +168,6 @@ main {
    text-align: justify;
    text-align-last: center;
    color: #878787;
-
-
 } 
 
 .main-content {
@@ -179,7 +179,7 @@ main {
 }
 
 .main-left {
-   max-width: 560px;
+   max-width: 560vw;
    border-right: 2px solid #D9D9D9;
    height: auto;
    margin-left: 10px;
@@ -298,7 +298,7 @@ main {
 
 
 .main-right {
-   max-width: 560px;
+   max-width: 56vw;
    margin-left: 10vw;
    height: auto;
 }
@@ -343,7 +343,8 @@ main {
 
    .subtitle-name {
       font-size: 28px;
-      margin: 0px;   
+      margin: 0px; 
+      margin-left: 2vw;  
    } 
    
    
@@ -356,30 +357,106 @@ main {
 
 @media (min-width: 320px) and (max-width: 860px) {
 
+   .container{
+      display: flex;
+      flex-direction: column;
+   }
+   .header-title{
+      margin-bottom: 0;
+   }
+   .header-title>br{
+      display: none;
+   }
+   .header-title-prof {
+      padding: 0;
+      margin-top: 3vh ;
+      margin-bottom: 4vh ;
+   
+   }
+   .header-left{
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+   }
+   .titles-contacts>ul{
+      display: flex;
+      flex-direction: row;
+      
+   }
+   .titles-contacts>ul>li{
+      margin: 0 10vw;
+   }
+   .contact{
+      display: none;
+   }
 
    .main-content {
       display: grid;
       justify-content: center;
       
       margin: 0px auto;
-      padding: 20px; /* Добавлено для улучшения отступов */
    }
-   .header-left {
 
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-   }
 
    .titles-contacts>ul>li>a>svg {
-      width: 20px;
-      height: 20px;
+      width: 30px;
+      height: 30px;
    }
+   .header-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100vw;
+
+   }
+
+   .header-img {
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 2vh ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 8px solidrgb(252, 252, 252);
+      background: #BFE2FF;
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+      animation: anim-header-img 10s infinite;
+   }
+   @keyframes anim-header-img {
+      0% {
+          border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+          box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+      }
+      25% {
+          border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+      }
+      50% {
+          border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+          box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+      }
+      75% {
+          border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+      }
+   }
+
+
+   .img-titles {
+      margin: 4vh 0vw 4vh 0vh;
+      display: block;
+      max-width: 98vw;
+   }
+
+   .img-subtitle {
+
+      font-weight: 400;
+      font-size: calc(14px + (12 + 10 * 0.7) * ((100vw - 320px) / 780));
+   } 
 
 
 
 
    .main-left {
-      display: grid;
+      display: flex;
       justify-content: center;
       border-right: 0;
       border-bottom: 2px solid #D9D9D9;
@@ -399,6 +476,9 @@ main {
       text-align: center;
    }
 
+   .section-titles {
+      justify-content: center;
+   }
    .section-title {
       justify-content: center;
       font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
@@ -407,6 +487,7 @@ main {
 
    .section-subtitles {
       text-align: left;
+      margin-left: 2vw;
       margin-bottom: 20px;
    }
 
@@ -419,12 +500,13 @@ main {
       line-height: normal;
       color: #878787;
       margin-bottom: 15px;
+      margin-left: 2vw;
       
    }
 
    .subtitle-name {
       text-align: center;
-      margin: 0px; 
+      margin-left: 2vw; 
       font-family: 'Open Sans';
       font-style: normal;
       font-weight: 600;
@@ -600,3 +682,5 @@ swiper-container {
       width: 100%;
    }
 }
+
+
