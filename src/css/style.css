@@ -358,13 +358,17 @@ main {
 
 
    .main-content {
-      display: grid;
+      display: flex;
       justify-content: center;
       
       margin: 0px auto;
       padding: 20px; /* Добавлено для улучшения отступов */
    }
+   .header-left {
 
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+   }
 
    .titles-contacts>ul>li>a>svg {
       width: 20px;
